@@ -26,5 +26,19 @@ To develop a MATLAB/Simulink model of a Permanent Magnet Synchronous Motor drive
 - Simscape Electrical
 
 ## Project Status
+## Project Status
+
+The initial PMSM drive model and feedback system have been developed in MATLAB/Simulink.
+
+### Completed
+- Project planning and documentation structure.
+- PMSM model selection and parameter setup.
+- DC supply and three-phase IGBT converter.
+- Mechanical load system using an Ideal Torque Source.
+- Rotor speed and position measurement.
+- Three-phase motor current measurement.
+
+### Next
+The next stage is the development of the Field-Oriented Control system, including the speed and current control loops, coordinate transformations, and generation of switching signals for the three-phase converter.
 
 🚧 In progress
